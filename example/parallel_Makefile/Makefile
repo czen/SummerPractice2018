@@ -6,7 +6,7 @@ CXXFLAGS = -O2 -std=c++11
 LIBS     = -L$(PT_PATH) -lParallelTree -Wl,-rpath=$(PT_PATH)
 INCLUDE  = -I ../../include
 OUT_NAME = example
-FILES    = main.cpp
+FILES    = shteyner_with_parallel.cpp
 
 OBJECTS  = $(FILES:.cpp=.o)
 
